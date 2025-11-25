@@ -8,8 +8,6 @@
  --font-size: 18px;
  --head-font-weight: 715;
  --color-span-button: white;
- 
-
  --color1: #d3d3d3;
  --color2: #e7e7e7;
  --color3: #1a1a1a;
@@ -19,14 +17,13 @@
       transparent 2px 4px
     ),
     repeating-linear-gradient(
-        0deg, 
-        var(--color1) 0 2px, 
+        0deg,
+        var(--color1) 0 2px,
         transparent 2px 4px),
     linear-gradient(var(--color2), var(--color3));
-
-    --title-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
-    --subtitle-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
-    --background-color: white;
-    --border-color: black;
-    --like-color: #f00;
+ --title-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
+ --subtitle-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
+ --background-color: white;
+ --border-color: black;
+ --like-color: #f00;
 }
