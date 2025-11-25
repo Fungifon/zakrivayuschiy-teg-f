@@ -51,3 +51,7 @@ ol {
   clip-path: inset(50%);
   white-space: nowrap;
 }
+
+:root {
+  --stroke-color: var(--text-color-shadow, white);
+}
