@@ -19,11 +19,9 @@
   background-image: var(--gradient);
   background-attachment: fixed;
   background-size: cover;
-  font-family: var(--font, sans-serif);
   color: var(--text-color, black);
   font-size: var(--text-size, 18px);
   font-style: normal;
-  font-variation-settings: 'wght' var(--text-font-weight, 400);
 }
 
 .header {
@@ -36,10 +34,7 @@
   margin-block-end: 100px;
   min-height: 368px; 
   margin: 0 auto; 
-  
 }
-
-
 
 .header__title {
   font-family: var(--font__accent, sans-serif);
@@ -140,12 +135,10 @@
   overflow: hidden;
   justify-content: center;
   align-items: center;
-  position: relative;
   width: 150px;
   height: 45px;
   font-size: 20px;
   padding: 10px;
-  
 }
 
 .button__text {
@@ -194,8 +187,6 @@
   font-family: var(--font__accent, sans-serif);
   font-size: 14px;
   font-weight: 400;
-  line-height: 1;
-
 }
 
 
@@ -216,7 +207,6 @@
   margin: 0 auto;
   overflow: hidden;
   padding: 10px;
-  
 }
 
 .main__save-button::before {
