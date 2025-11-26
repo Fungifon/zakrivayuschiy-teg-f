@@ -14,7 +14,7 @@
   min-inline-size: 320px;
   min-block-size: 100dvb;
   font-family: var(--font, sans-serif);
-  font-variation-settings: var(--font-weight, 400);
+  font-variation-settings: 'wght' var(--font-weight);
   background-color: var(--background-color, white);
   background-image: var(--gradient);
   background-attachment: fixed;
@@ -22,6 +22,7 @@
   color: var(--text-color, black);
   font-size: var(--text-size, 18px);
   font-style: normal;
+  padding-top: 10vh;
 }
 
 .header {
@@ -32,7 +33,6 @@
   padding-inline-end: 14px;
   padding-block-start: 130px;
   margin-block-end: 100px;
-  min-height: 368px;
   margin: 0 auto;
 }
 
@@ -46,13 +46,14 @@
 }
 
 .header__subtitle {
-  .white-space: nowrap;
+  white-space: nowrap;
   font-family: var(--font__accent, sans-serif);
   font-size: var(--subtitle-size);
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   text-transform: uppercase;
+  padding-bottom: 130px;
 }
 
 .main__content {
@@ -68,7 +69,7 @@
 
 .card__heading {
   font-size: var(--font-size, );
-  font-variation-settings: 'wght' var(--head-font-weight, 700);
+  font-variation-settings: 'wght' var(--head-font-weight);
   line-height: normal;
   padding: 5px 10px;
 }
@@ -111,8 +112,7 @@
   width: 50px;
   height: 50px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  transition: 0.3s ease;
 }
 
 .card__icon-button:focus {
@@ -121,23 +121,24 @@
 
 .card__icon-button:focus-visible {
   border: 2px solid var(--border-color, black);
-  transition: 0.3s ease;
 }
 
 .like-icon {
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .card__like-button {
   display: flex;
   position: relative;
   overflow: hidden;
-  justify-content: center;
-  align-items: center;
   width: 150px;
   height: 45px;
   font-size: 20px;
   padding: 10px;
+  transition: 0.3s ease;
 }
 
 .card__like-button::before {
@@ -171,7 +172,6 @@
 
 .card__like-button:focus-visible {
   box-shadow: 2px 2px var(--border-color, black);
-  transition: ease 0.3s;
 }
 
 .card__like-button-text, .main__save-button {
@@ -192,8 +192,6 @@
 
 .main__save-button {
   display: flex;
-  justify-content: center;
-  align-items: center;
   gap: 8px;
   position: relative;
   width: 337px;
@@ -256,6 +254,11 @@
     1px -1px var(--stroke-color);
 }
 
+.button {
+  justify-content: center;
+  align-items: center;
+}
+ 
 .card__image__sep {
   filter: sepia(0.6) saturate(60%) brightness(80%);
 }
@@ -308,7 +311,7 @@
 }
 
 .dialog::backdrop {
-  background-color: rgb(0 0 0 / 0.7);
+  background-color: rgb(0 0 0 / 0.75);
 }
 
 .box {
@@ -321,7 +324,6 @@
   text-transform: uppercase;
   max-width: 700px;
   margin: 0 auto;
-  margin-top: 10vh;
 }
 
 .box p {
