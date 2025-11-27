@@ -132,7 +132,7 @@
   border: 2px solid var(--border-color, black);
   opacity: 0;
   transition: 0.3s ease;
-  pointer-events: none; 
+  pointer-events: none;
 }
 
 .card__icon-button:focus-visible::before {
@@ -235,11 +235,6 @@
     1px -1px var(--stroke-color);
 }
 
-.button {
-  justify-content: center;
-  align-items: center;
-}
- 
 .card__image__sep {
   filter: sepia(0.6) saturate(60%) brightness(80%);
 }
@@ -335,6 +330,8 @@
   display: flex;
   position: relative;
   overflow: hidden;
+  justify-content: center;
+  align-items: center;
 }
 
 .button-hover::before {
