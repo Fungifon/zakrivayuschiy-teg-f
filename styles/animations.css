@@ -69,9 +69,9 @@
 .contour {
   fill: var(--border-color);
   transition-property: fill;
-  transition-duration: 0.1s;
+  transition-duration: 0.3s;
   transition-timing-function: linear;
-  transition-delay: 0s;
+  transition-delay: 0.03s;
 }
 
 .core {
@@ -86,8 +86,9 @@
   fill: var(--border-color);
   transition-property: fill;
   transition-duration: 0.3s;
-  transition-delay: 0.05s;
+  transition-delay: 0s;
   transition-timing-function: linear;
+  transition-delay: 0.03s
 }
 
 .heart:active .core {
@@ -96,13 +97,14 @@
   transition-duration: 0.3s;
   transition-delay: 0s;
   transition-timing-function: linear;
+  transition-delay: 0.03s
 }
 
 .main-body {
   fill: transparent;
   transition-property: fill;
-  transition-duration: 0.05s;
-  transition-delay: 0.03s;
+  transition-duration: 0.03s;
+  transition-delay: 0.05s;
   transition-timing-function: linear;
 }
 
@@ -124,7 +126,7 @@
   fill: var(--like-color);
   transition-property: fill;
   transition-duration: 0.3s;
-  transition-delay: 0.03s;
+  transition-delay: 0.06s;
   transition-timing-function: linear;
 }
 
