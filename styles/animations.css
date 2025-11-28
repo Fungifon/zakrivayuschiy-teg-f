@@ -69,62 +69,52 @@
 .contour {
   fill: var(--border-color);
   transition-property: fill;
-  transition-duration: 0.3s;
+  transition-duration: 0.1s;
   transition-timing-function: linear;
-  transition-delay: 0.03s;
+  transition-delay: 0s;
 }
 
 .core {
   fill: transparent;
   transition-property: fill;
-  transition-duration: 0s;
+  transition-duration: 0.3s;
   transition-timing-function: linear;
   transition-delay: 0.03s;
 }
 
 .heart:hover .core {
   fill: var(--border-color);
-  transition-property: fill;
-  transition-duration: 0.3s;
-  transition-timing-function: linear;
-  transition-delay: 0.03s
+  transition-delay: 0s
 }
 
 .heart:active .core {
   fill: var(--like-color);
-  transition-property: fill;
-  transition-duration: 0.3s;
-  transition-timing-function: linear;
-  transition-delay: 0.03s
+  transition-delay: 0s;
 }
 
 .main-body {
   fill: transparent;
   transition-property: fill;
-  transition-duration: 0.03s;
-  transition-delay: 0.05s;
+  transition-duration: 0.3s;
+  transition-delay: 0s;
   transition-timing-function: linear;
 }
 
 .heart:hover .main-body {
   fill: var(--border-color);
-  transition-property: fill;
-  transition-duration: 0.3s;
-  transition-timing-function: linear;
+  transition-delay: 0.05s;
 }
 
 .heart:active .main-body {
   fill: var(--like-color);
-  transition-property: fill;
-  transition-duration: 0.3s;
-  transition-timing-function: linear;
+  transition-delay: 0.05s;
 }
 
 .like-icon.is-liked .main-body {
   fill: var(--like-color);
   transition-property: fill;
   transition-duration: 0.3s;
-  transition-delay: 0.06s;
+  transition-delay: 0.05s;
   transition-timing-function: linear;
 }
 
